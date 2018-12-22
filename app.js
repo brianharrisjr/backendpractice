@@ -21,6 +21,10 @@ app.get("/contact", function(req,res){
   res.render("contact");
 });
 
+app.post("/addpost", function(req,res){
+  res.render("submitpost")
+})
+
 
 app.listen(3000, function(){
   console.log("Server Started");
