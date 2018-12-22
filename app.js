@@ -13,6 +13,14 @@ app.get("/about", function (req, res){
   res.render("about");
 })
 
+app.get("/services", function(req, res){
+  res.render("services");
+});
+
+app.get("/contact", function(req,res){
+  res.render("contact");
+});
+
 
 app.listen(3000, function(){
   console.log("Server Started");
